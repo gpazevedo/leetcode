@@ -10,6 +10,10 @@ Solutions for LeetCode exercises.
 
 [TrappingRainWater](./trapping-rain-water/README.md): Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 
+## Strings
+
+[BackSpaceCompare](./backspaceCompare/README.md): Comparing two strings with '#' as a backspace.
+
 ## Development Workflow
 
     $ yarn test folder/app     # TDD with Unit Tests for the folder/app
