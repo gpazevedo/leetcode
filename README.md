@@ -14,6 +14,8 @@ Solutions for LeetCode exercises.
 
 [BackSpaceCompare](./backspaceCompare/README.md): Comparing two strings with '#' as a backspace.
 
+[LongestSubString](./longest-sub-string/README.md) Longest Substring Without Repeating Characters
+
 ## Development Workflow
 
     $ yarn test folder/app     # TDD with Unit Tests for the folder/app
