@@ -11,7 +11,7 @@ var backspaceCompare = function (S, T) {
   do {
     [cS, pS] = lastChar(S, pS);
     [cT, pT] = lastChar(T, pT);
-  } while (cS === cT && pT >= 0 && pS >= 0);
+  } while (cS === cT && (cS !== "" || cT !== ""));
 
   return cS === cT && pT === -1 && pS === -1;
 };

@@ -39,4 +39,8 @@ describe("backspaceCompare", () => {
   it("Should work for example 4", () => {
     expect(backspaceCompare("a#c", "b")).toBe(false);
   });
+
+  it("Should work for example 5", () => {
+    expect(backspaceCompare("nzp#o#g", "b#nzp#o#g")).toBe(true);
+  });
 });
