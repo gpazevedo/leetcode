@@ -16,6 +16,8 @@ Solutions for LeetCode exercises.
 
 [LongestSubString](./longest-sub-string/README.md) Longest Substring Without Repeating Characters
 
+[Palindrome](./palindrome) Palindromes
+
 ## Development Workflow
 
     $ yarn test folder/app     # TDD with Unit Tests for the folder/app
