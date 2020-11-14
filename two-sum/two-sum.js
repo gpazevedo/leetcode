@@ -27,7 +27,3 @@ var twoSum = function (nums, target) {
 };
 
 module.exports = { twoSum };
-// const nums = [0, 4, 3, 0];
-// const target = null;
-
-// console.log(twoSum(nums, target));
