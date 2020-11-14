@@ -7,8 +7,6 @@ function almostPalindrome(str, dif) {
 }
 function isPalindrome(clearStr, dif, left, right) {
   while (left < right) {
-    //console.log(clearStr, dif, left, right);
-
     if (clearStr[left] !== clearStr[right]) {
       if (dif > 0) {
         if (left < right) {
